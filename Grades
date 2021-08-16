@@ -1,0 +1,28 @@
+#include <stdio.h>
+{
+    int m;
+   clrscr();
+   printf("enter your marks:");
+   sacnf("%d",&m);
+   if(m>=85)
+{
+  printf("grade A");
+}
+elseif(m>=70)
+{
+   printf("grade B");
+}
+elseif(m>=55)
+{
+   printf("grade C");
+}
+elseif(m>=40)
+{
+   printf("grade D");
+}
+elseif(m<=40)
+{
+   printf("grade F");
+}
+  return 0;
+  }
